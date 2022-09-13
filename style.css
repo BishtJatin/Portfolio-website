@@ -371,15 +371,14 @@ form .btn2 {
 }
 
 /* -----------------css for small screens------------ */
-nav .fas {
+nav .fa-solid {
     display: none;
 }
 
-@media only screen and (max-with: 600px) {
+@media only screen and (max-width: 600px) {
     #header {
-        background-image: url(background1.png);
+        background-image: url(phone1-background.png);
     }
-
     .header-text {
         margin-top: 100%;
         font-size: 16px;
@@ -389,7 +388,7 @@ nav .fas {
         font-size: 30px;
     }
 
-    nav .fas {
+    nav .fa-solid {
         display: block;
         font-size: 25px;
     }
@@ -411,7 +410,7 @@ nav .fas {
         margin: 25px;
     }
 
-    nav ul .fas {
+    nav ul .fa-solid {
         position: absolute;
         top: 25px;
         left: 25px;
@@ -455,3 +454,4 @@ nav .fas {
     margin-top: -40px;
     display: block;
 }
+
