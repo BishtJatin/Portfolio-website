@@ -27,7 +27,7 @@
             </nav>
             <div class="header-text">
                 <p>Developer</p>
-                <h1>Hi, I'm <span>Jatin</span><br>i am a developer</h1>
+                <h1>Hi, I'm <span >Jatin</span><br>i am a <span class="typing">developer</span></h1>
             </div>
         </div>
     </div>
@@ -178,17 +178,22 @@
         </div>
     </div>
 
-    
-    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
-    <!-- <script>
-        var typed = new Typed(".auto-type" ,{
-            String: ["Jatin", "a Python programmer"],
-            typeSpeed: 150,
-            backSpeed: 150,
-            loop: true
-        })
-
-    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typeData = new Typed(".typing", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 60,
+      backDelay: 1000,
+      loop:true
+    });
+  </script>
 
 
     <script>
