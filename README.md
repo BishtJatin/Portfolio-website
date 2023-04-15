@@ -1,4 +1,4 @@
-quick preview - https://bishtjatin.github.io/Portfolio-website/
+quick preview - jatinbisht.netlify.app
 
 
 
