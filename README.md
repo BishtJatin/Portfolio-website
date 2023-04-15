@@ -1,4 +1,4 @@
-quick preview - jatinbisht.netlify.app
+quick preview - https://jatinbisht.netlify.app/
 
 
 
